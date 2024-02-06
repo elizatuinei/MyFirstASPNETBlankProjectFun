@@ -1,0 +1,48 @@
+﻿body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    justify-content: space-between;
+}
+
+h1, h2 {
+    color: #FF69B4;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.text-container {
+    width: 50%;
+    margin: auto;
+}
+
+#calculatorForm {
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#totalOutput {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #4CAF50;
+}

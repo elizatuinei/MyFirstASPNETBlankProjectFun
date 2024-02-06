@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>I love to hike!</title>
+    <link rel="icon" type="image/png" href="polynesianicon.png" />
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Sans+MS&family=Georgia:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="banner-container">
+        <h1>Welcome to My Hiking Guide</h1>
+        <h2>Discover the joy of hiking and beauty of nature with me!</h2>
+    </div>
+    <div class="content">
+        <div class="text-container">
+            <div class="paragraphs">
+                <h2>Hiking can truly take place in all seasons.</h2>
+                <br />
+                <br />
+                <br />
+                <p>
+                    I've visited more than many countries and climates to experience the great outdoors. I also have worked as a climbing, river and backpacking guide over the years.
+                    'A love for hiking has flourished ever since getting into shape after returning home from my mission in Rome, Italy in 2022. I feel healthy and happy when I hike.
+                </p>
+            </div>
+        </div>
+    </div>
+    <a href="calculator.html" class="button-link">
+        If you are interested in climbing, hiking,
+        backpacking or otherwise; I'd love to help! <br />Click here for more info!
+    </a>
+    <br /><br />
+    <div class="photo-grid">
+        <div class="photo-item" onclick="toggleFlip(this)">
+            <div class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="hiking.jpg" alt="Hiking Image" />
+                    </div>
+                    <div class="back">
+                        <div class="caption">Hiking Adventure if I write a whole bunch of things here does it fill in the square more?</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-item" onclick="toggleFlip(this)">
+            <div class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="timp.jpg" alt="Mountain Image" />
+                    </div>
+                    <div class="back">
+                        <div class="caption">Beautiful Mountain View</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-item" onclick="toggleFlip(this)">
+            <div class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="winter.jpg.jpg" alt="Winter Image" />
+                    </div>
+                    <div class="back">
+                        <div class="caption">Relaxing Day in the snow</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <div class="quiz-container">
+        <form id="quizForm">
+            <h3>Why do I love it?</h3>
+            <input type="radio" name="q1" value="a" onclick="showFeedback('wrong')"> It is good for my body.<br>
+            <input type="radio" name="q1" value="b" onclick="showFeedback('wrong')"> It connects me with mother Earth.<br>
+            <input type="radio" name="q1" value="c" onclick="showFeedback('wrong')"> In the summer I get tan after going hiking.<br>
+            <input type="radio" name="q1" value="d" onclick="showFeedback('correct')"> All of the above<br>
+            <div id="feedback"></div>
+        </form>
+    </div>
+    <div id="feedback-container"></div>
+    <br /><br />
+    <footer>
+     <div class="copyright-info">
+     <p>&copy; 2024 My Hiking Paradise. All rights reserved.</p>
+     <p>Designed and built by Eliza Tuinei</p>
+    </div>
+    </footer>
+     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+     <script src="JavaScript.js"></script>
+</body>
+</html>
+
+
