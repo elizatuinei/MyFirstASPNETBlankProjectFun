@@ -10,27 +10,33 @@
     <Compile Remove="NewFolder1\**" />
     <Compile Remove="NewFolder\**" />
     <Compile Remove="Properties\wwwroot\**" />
+    <Compile Remove="wwwroot\NewFolder\**" />
     <Content Remove="NewFolder1\**" />
     <Content Remove="NewFolder\**" />
     <Content Remove="Properties\wwwroot\**" />
+    <Content Remove="wwwroot\NewFolder\**" />
     <EmbeddedResource Remove="NewFolder1\**" />
     <EmbeddedResource Remove="NewFolder\**" />
     <EmbeddedResource Remove="Properties\wwwroot\**" />
+    <EmbeddedResource Remove="wwwroot\NewFolder\**" />
     <None Remove="NewFolder1\**" />
     <None Remove="NewFolder\**" />
     <None Remove="Properties\wwwroot\**" />
+    <None Remove="wwwroot\NewFolder\**" />
     <_WebToolingArtifacts Remove="Properties\wwwroot\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="NewFolder2\" />
-    <Folder Include="NewFolder3\" />
+    <Content Include="Controllers\HomeController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\timp.jpg" />
     <None Include="wwwroot\hiking.jpg" />
-    <None Include="wwwroot\index.html" />
   </ItemGroup>
 
 </Project>
